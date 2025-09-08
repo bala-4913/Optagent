@@ -15,7 +15,7 @@ MODEL_PATH = os.path.join(MODEL_DIR, "best_ffnn_model.h5")
 SCALER_FEAT_PATH = os.path.join(MODEL_DIR, "scaler_feat_ffnn.pkl")
 SCALER_TGT_PATH = os.path.join(MODEL_DIR, "scaler_tgt_ffnn.pkl")
 
-DEFAULT_DT = 0.05
+DEFAULT_DT = 0.1
 DEFAULT_CYCLES = 3
 RANDOM_SEED = 42
 
